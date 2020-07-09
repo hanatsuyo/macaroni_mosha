@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    font-family: "Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
+        list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+li{
+    list-style: none;
+}
+
+header{
+    padding: 55px 30px 40px;
+    position: fixed;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 10;
+    overflow: hidden;
+    background-color: white;
+}
+
+.logo{
+    height: auto;
+    max-width: 100%;
+    width: 380px;
+}
+
+.navi-top{
+    display: flex;
+    position: absolute;
+    right: 25px;
+    top: 90px;
+}
+
+.navi-top li{
+    margin-left: 0.8em;
+}
+
+.navi-top a{
+    padding:0 5px;
+    display: block;
+    position: relative;
+}
+
+.navi-top a::after {
+    background-color:#94c9a0;
+    content: "";
+    display: block;
+    width: 0%;
+    height: 4px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    margin-top: -3px;
+    z-index: -1;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+  }
+  .navi-top a:hover::after {
+    width: 100%;
+  }
+
+.snsbtniti{
+    display: flex;
+    position: absolute;
+    top: 50px;
+    right: 30px;
+    align-items: center;
+}
+
+.snsbtniti li{
+    font-size: 16px;
+    margin-left: 20px;
+}
+
+.snsbtniti i{
+    color: black;
+}
+
+.top-jacket{
+    position: relative;
+    text-align: right;
+}
+
+.top-image{
+    width: 71.25%;
+    position: relative;
+    z-index: 2;
+}
+
+
+.new-release{
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    z-index: 1;
+    background: #ffeb7b;
+    top: 50px;
+}
+
+.jacket-box{
+    width:275px;
+    overflow: hidden;
+    margin-top: 20px; 
+    margin-left:auto;
+    margin-right:auto;
+}
+
+
+.jacket{
+    text-align: center;
+    width: 275px;
+    height: auto;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.jacket:hover {
+    transform: scale(1.1,1.1);
+    cursor: pointer;
+
+    }
+
+.inner{
+    text-align: center;
+    width: 57.5%;
+    position: relative;
+    top: 150px;
+}
+
+.inner h2{
+    width:275px; 
+    padding:10px 0px;
+    letter-spacing: 2px;
+    color: #ffeb7b;
+    background: black;
+    font-family:"Robot";
+    font-weight: 300;
+    font-size: 17px;
+    margin-right:auto;
+    margin-left:auto;
+}
+
+figcaption{
+    margin-top:20px;
+    width: 130px;
+    margin-right: auto;
+    margin-left: auto;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+
+}
+
+
+figcaption:hover{
+    opacity: 0.5;
+}
+
+.type{
+    display: block;
+    font-size: 18px;
+}
+
+.title{
+    display: block;
+    font-size: 36px;
+}
+
+
